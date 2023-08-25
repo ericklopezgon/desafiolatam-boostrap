@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h3, h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav {
+    background-color: #28A745;
+}
+
+nav a img {
+    width: 150px;
+}
+
+nav .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.card .card-body{
+    padding-bottom: 0px;
+}
+
+.card .card-title {
+    color: #33373b;
+    font-size: 20pt;
+    font-weight: 200
+}
+
+.card .direction {
+    display: flex;
+    margin: 0px;
+    color: #9497a8;
+    font-weight: 100;
+}
+
+.card .price {
+    display: flex;
+    justify-content: end;
+}
+
+.card .card-text {
+    color: #9497a8;
+    padding-top: 10px;
+    font-size: 16pt;
+    margin: 0;
+    font-weight: 100;
+}
+
+.card .direction {
+    color: #707070;
+    padding-top: 0px;
+}
+
+.card .direction i {
+    padding-right: 2px;
+}
+
+.card .price h5 {
+    color: #707070;
+    font-size: 10pt;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.card .price h2 {
+    color: #28A745;
+    font-size: 14pt;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: 550;
+}
+
+form {
+    background-color: #28A745;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+form .form-label {
+    font-weight: 500;
+    font-size: 20pt; 
+}
+
+form .btn { 
+    color: black;
+    background-color: white;
+    font-weight: 500;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #707070;
+}
+
+footer img {
+    width: 150px;
+}
